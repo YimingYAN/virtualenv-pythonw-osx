@@ -57,7 +57,7 @@ virtualenvs based on OSX Framework-style installs.
 
 def main(argv):
     if len(argv) != 2:
-        print USAGE
+        print(USAGE)
         sys.exit(1)
     env_path = path.abspath(argv[1])
     script_path = path.abspath(path.dirname(__file__))
